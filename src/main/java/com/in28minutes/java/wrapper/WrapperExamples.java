@@ -98,7 +98,7 @@ public class WrapperExamples {
 
 		// Auto Boxing
 		Integer ten = new Integer(10);
-		ten++;// allowed. Java does had work behing the screen for us
+		ten++;// allowed. Java does had work behind the screen for us
 
 		// Two wrapper objects created using new are not same object
 		Integer nineA = new Integer(9);
@@ -106,7 +106,7 @@ public class WrapperExamples {
 		System.out.println(nineA == nineB);// false
 		System.out.println(nineA.equals(nineB));// true
 
-		// Two wrapper objects created using boxing are same object
+		// Two wrapper objects created using boxing are the same object
 		Integer nineC = 9;
 		Integer nineD = 9;
 		System.out.println(nineC == nineD);// true
